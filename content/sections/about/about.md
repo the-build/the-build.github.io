@@ -1,6 +1,6 @@
 ---
 imageSrc: "../../images/charles-deluvio-DgoyKNgPiFQ-unsplash.jpg"
-imageAlt: "About Gatsby Theme Portfolio Minimal"
+imageAlt: "About [The build]"
 ---
 
 Portfolio Minimal is a Gatsby Theme that creates outstanding one-pages portfolio within minutes!

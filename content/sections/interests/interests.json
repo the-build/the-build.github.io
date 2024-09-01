@@ -5,6 +5,9 @@
       "image": {
         "src": "../../images/joystick.png",
         "alt": ""
+      },
+      "link": {
+        "src": "../../articles/programming"
       }
     },
     {
@@ -60,6 +63,6 @@
   "button": {
     "visible": true,
     "label": "+ Load More",
-    "initiallyShownInterests": 5
+    "initiallyShownInterests": 3
   }
 }
