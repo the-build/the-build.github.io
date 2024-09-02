@@ -1,5 +1,5 @@
 module.exports = {
-  pathPrefix: "github.com/the-build/the-build.github.io",
+  pathPrefix: "/the-build.github.io",
   plugins: [
     {
       resolve: "gatsby-theme-portfolio-minimal",
