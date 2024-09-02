@@ -1,10 +1,9 @@
 module.exports = {
-  pathPrefix: "/the-build.github.io",
   plugins: [
     {
       resolve: "gatsby-theme-portfolio-minimal",
       options: {
-        siteUrl: "https://github.com/the-build/the-build.github.io", // Used for sitemap generation
+        siteUrl: "https://the-build.github.io", // Used for sitemap generation
         manifestSettings: {
           favicon: "./content/images/favicon.png", // Path is relative to the root
           siteName: "The Build's Blog", // Used in manifest.json
