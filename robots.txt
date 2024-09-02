@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://the-build.github.io/sitemap-index.xml
+Host: https://the-build.github.io
