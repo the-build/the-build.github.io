@@ -8,7 +8,7 @@
     "src": "../../images/waving-hand.png",
     "alt": "Waving Hand Emoji"
   },
-  "title": "I'm Han, a Software Engineer with 10 years.",
+  "title": "I'm Han, a Software Engineer.",
   "subtitle": {
     "prefix": "I've worked with a variety of programming languages, including ",
     "highlight": "Java (Spring), C++, Node.js, and gRPC",

@@ -25,5 +25,16 @@ module.exports = {
         // }
       },
     },
+    `gatsby-plugin-image`,
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'images',
+        path: './content/images/', // 이미지가 위치한 경로
+      },
+    },
+    'gatsby-transformer-sharp', // 이미지 변환을 위한 플러그인
+    'gatsby-plugin-sharp', // 이미지 최적화를 위한 플러그인
+    // 'gatsby-plugin-image', // 이미지 처리를 위한 플러그인
   ],
 };
