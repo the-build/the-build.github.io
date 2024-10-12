@@ -34,7 +34,7 @@ export default function IndexPage() {
                 height
                 src
               }
-              gatsbyImageData(layout: FULL_WIDTH)
+              gatsbyImageData(layout: CONSTRAINED)
             }
           }
           alt
@@ -53,22 +53,23 @@ export default function IndexPage() {
       <Page useSplashScreenAnimation>
         <HeroSection sectionId="hero" />
         {/* <LanguageSection sectionId="languages" heading="Programing languages" /> */}
-        <Section sectionId="languages" heading="Programing languages">
-          <div>
-            <div className={languagesCSS.Track}>
-            {languages.map((language, index) => {
-              console.log(language)
-              const image = getImage(language.image.src);
-              console.log(image)
-              return (
-                <div key={index} className={languagesCSS.Item}>
-                  
+        <Section anchor="languages" additionalClasses={[languagesCSS.LanguagesContainer]} heading="Programing languages">
+          <div className={languagesCSS.LanguagesContainer}>
+          <div className={languagesCSS.Track}>
+          {[...languages,...languages].map((language, index) => {
+            const image = getImage(language.image.src.childImageSharp.gatsbyImageData);
+
+            return (
+              <div key={index} className={languagesCSS.Item}>
+                {image ? (
                   <GatsbyImage image={image} alt={language.image.alt || language.label} />
-                  {/* <GatsbyImage image={language.image.src.childImageSharp.gatsbyImageData.images.fallback.src} alt={language.image.alt || language.label} /> */}
-                </div>
-              );
-            })}
-            </div>
+                ) : (
+                  <p>이미지를 불러올 수 없습니다.</p>
+                )}
+              </div>
+            );
+          })}
+          </div>
           </div>
         </Section>
         

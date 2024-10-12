@@ -2,6 +2,15 @@ module.exports = {
   plugins: [
     `gatsby-transformer-remark`,
     {
+      resolve: `gatsby-plugin-google-gtag`,
+      options: {
+        trackingIds: ["G-YL29J4YKJ7"],
+        pluginConfig: {
+          head: true,
+        },
+      },
+    },
+    {
       resolve: "gatsby-theme-portfolio-minimal",
       options: {
         siteUrl: "https://the-build.github.io", // Used for sitemap generation
@@ -19,11 +28,11 @@ module.exports = {
           path: "/blog", // Defines the slug for the blog listing page
           usePathPrefixForArticles: false, // Default true (i.e. path will be /blog/first-article)
         },
-        googleAnalytics: {
-            trackingId: "G-YL29J4YKJ7",
-            anonymize: true, // Default true
-            environments: ["production", "development"] // Default ["production"]
-        }
+        // googleAnalytics: {
+        //     trackingId: "G-YL29J4YKJ7",
+        //     anonymize: true, // Default true
+        //     environments: ["production", "development"] // Default ["production"]
+        // }
       },
     },
     `gatsby-plugin-image`,
@@ -37,5 +46,6 @@ module.exports = {
     'gatsby-transformer-sharp', // 이미지 변환을 위한 플러그인
     'gatsby-plugin-sharp', // 이미지 최적화를 위한 플러그인
     // 'gatsby-plugin-image', // 이미지 처리를 위한 플러그인
+    
   ],
 };
