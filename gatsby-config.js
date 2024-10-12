@@ -1,5 +1,6 @@
 module.exports = {
   plugins: [
+    `gatsby-transformer-remark`,
     {
       resolve: "gatsby-theme-portfolio-minimal",
       options: {
@@ -18,11 +19,11 @@ module.exports = {
           path: "/blog", // Defines the slug for the blog listing page
           usePathPrefixForArticles: false, // Default true (i.e. path will be /blog/first-article)
         },
-        // googleAnalytics: {
-        //     trackingId: "UA-XXXXXX-X",
-        //     anonymize: true, // Default true
-        //     environments: ["production", "development"] // Default ["production"]
-        // }
+        googleAnalytics: {
+            trackingId: "G-YL29J4YKJ7",
+            anonymize: true, // Default true
+            environments: ["production", "development"] // Default ["production"]
+        }
       },
     },
     `gatsby-plugin-image`,

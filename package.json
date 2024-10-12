@@ -14,6 +14,7 @@
   },
   "dependencies": {
     "gatsby": "^5.0.0",
+    "gatsby-plugin-gdpr-cookies": "^2.0.9",
     "gatsby-plugin-image": "^0.7.2",
     "gatsby-plugin-manifest": "^5.13.1",
     "gatsby-plugin-sharp": "^5.13.1",
