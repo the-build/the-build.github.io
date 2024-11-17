@@ -74,7 +74,7 @@ export default function IndexPage() {
         </Section>
         
         <ArticlesSection sectionId="articles" heading="Latest Articles" sources={['Blog']} />
-        {/* <AboutSection sectionId="about" heading="About Portfolio Minimal" /> */}
+        <AboutSection sectionId="about" heading="About [The build]" />
         {/* <InterestsSection sectionId="details" heading="Details" />
         <ProjectsSection sectionId="features" heading="Built-in Features" /> */}
         {/* <ContactSection sectionId="github" heading="Issues?" /> */}

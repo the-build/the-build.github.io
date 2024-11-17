@@ -20,13 +20,13 @@
       "header": [
         { "label": "About", "url": "/#about" },
         { "label": "Blog", "url": "/blog" },
-        { "label": "Features", "url": "/#features" },
+        
         { "label": "Github", "url": "/#github" }
       ],
       "ctaButton": {
         "openNewTab": true,
         "label": "Resume",
-        "url": "/resume.pdf"
+        "url": "https://www.linkedin.com/in/dongho-han-20738821a"
       },
       "footer": [
         { "label": "Privacy", "url": "/privacy" },
