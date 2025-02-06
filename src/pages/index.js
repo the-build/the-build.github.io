@@ -52,7 +52,6 @@ export default function IndexPage() {
       <Seo title="The Build's Blog" />
       <Page useSplashScreenAnimation>
         <HeroSection sectionId="hero" />
-        {/* <LanguageSection sectionId="languages" heading="Programing languages" /> */}
         <Section anchor="languages" additionalClasses={[languagesCSS.LanguagesContainer]} heading="Programing languages">
           <div className={languagesCSS.LanguagesContainer}>
           <div className={languagesCSS.Track}>
