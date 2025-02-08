@@ -47,7 +47,7 @@ harbor 서비스 종류 → 백업 → 새로운 서버에 harbor 설치 → 새
 `docker compose watch`
  
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4af44c55-bb9f-4a14-af4e-55648b227811/81786e00-d54c-4fbf-b29c-f347f93b8bad/image.png)
+![image.png](../../images/s-CS/harbor_1.png)
 
 ### DB 연결 확인
 
@@ -57,7 +57,7 @@ harbor 서비스 종류 → 백업 → 새로운 서버에 harbor 설치 → 새
     - Password: harbor.yml 참조
 - 설계를 살짝 추측 해볼 수 있는 구성이다
 
-![image.png](https://prod-files-secure.s3.us-west-2.amazonaws.com/4af44c55-bb9f-4a14-af4e-55648b227811/23e59fdb-f9f6-4467-9e2c-bd2513c8070e/image.png)
+![image.png](../../images/s-CS/harbor_2.png)
 
 ## 회고
 
