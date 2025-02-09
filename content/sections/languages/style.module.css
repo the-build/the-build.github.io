@@ -1,0 +1,43 @@
+.LanguagesContainer {
+  display: flex;
+  flex-direction: column; /* 세로 정렬 */
+  overflow-x: auto; /* 가로 스크롤 가능 */
+  white-space: nowrap; /* 줄바꿈 방지 */
+  overflow: hidden;
+}
+
+.languagesImageCont {
+  flex: 33%;
+  flex-shrink: 0;
+  width: 100%;
+  margin-top: auto;
+  margin-bottom: auto;
+  padding: 0 5rem 3rem 0;
+}
+
+.Track {
+    display: flex;
+    justify-content: flex-start; /* 왼쪽 정렬 */
+    overflow: hidden; /* 이미지가 범위를 넘지 않도록 설정 */
+    width: 100%; /* 전체 너비 설정 */
+    animation: scroll 10s linear infinite;
+    position: relative; /* 자식 요소의 위치 설정 */
+}
+  
+.Item {
+  display: inline-block;
+  padding: 0 10px;
+  flex: 0 0 auto; /* 고정 크기 설정 */
+}
+  
+.Item img {
+  width: auto;
+  height: 80px;
+  object-fit: contain; /* 비율 유지하면서 크기 조정 */
+}
+  
+@keyframes scroll {
+  0% { transform: translateX(70%); }
+  100% { transform: translateX(0); }
+}
+  
