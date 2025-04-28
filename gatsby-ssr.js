@@ -13,6 +13,6 @@ export const onRenderBody = ({ setHeadComponents }) => {
     //  crossOrigin="anonymous" />
 
      <script key="google-adsense" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9813975852186273"
-     crossorigin="anonymous"></script>,
+     crossOrigin="anonymous"></script>,
   ]);
 };
