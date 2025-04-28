@@ -38,7 +38,7 @@ jobs:
       - name: Build
         run: npm run build
         env:
-          PREFIX_PATHS: true  # gatsby-config.js에 pathPrefix 설정이 있을 경우
+          PREFIX_PATHS: false  # gatsby-config.js에 pathPrefix 설정이 있을 경우
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
