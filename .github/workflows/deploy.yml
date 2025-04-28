@@ -47,5 +47,5 @@ jobs:
         with:
           github_token: ${{ secrets.PAT }}
           publish_dir: ./public
-          publish_branch: main  # 원하는 배포 브랜치 이름으로 변경 가능
+          publish_branch: release   # 원하는 배포 브랜치 이름으로 변경 가능
           full_commit_message: ${{ github.event.head_commit.message }}
