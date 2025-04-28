@@ -9,7 +9,10 @@ export const onRenderBody = ({ setHeadComponents }) => {
     //   async
     //   src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"
     // ></script>,
-    <script async  key="adsense-script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9813975852186273"
-     crossOrigin="anonymous" />
+    // <script async  key="adsense-script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9813975852186273"
+    //  crossOrigin="anonymous" />
+
+     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9813975852186273"
+     crossorigin="anonymous"></script>,
   ]);
 };
