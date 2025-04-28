@@ -12,7 +12,7 @@ export const onRenderBody = ({ setHeadComponents }) => {
     // <script async  key="adsense-script" src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9813975852186273"
     //  crossOrigin="anonymous" />
 
-     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9813975852186273"
+     <script key="google-adsense" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-9813975852186273"
      crossorigin="anonymous"></script>,
   ]);
 };
