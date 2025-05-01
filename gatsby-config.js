@@ -11,12 +11,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-google-adsense`,
-      options: {
-        publisherId: `ca-pub-9813975852186273`,
-      },
-    },
-    {
       resolve: "gatsby-theme-portfolio-minimal",
       options: {
         siteUrl: "https://the-build.github.io", // Used for sitemap generation
