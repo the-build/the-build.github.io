@@ -3,11 +3,11 @@
   "version": "1.0.0",
   "description": "The Build's Blog",
   "scripts": {
-    "clean": "gatsby clean",
-    "develop": "gatsby develop",
-    "build": "gatsby build --prefix-paths",
-    "serve": "gatsby serve",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b release -f"
+    "clean": "npx gatsby clean",
+    "develop": "npx gatsby develop",
+    "build": "npx gatsby build --prefix-paths",
+    "serve": "npx gatsby serve",
+    "deploy": "npx gatsby build --prefix-paths && gh-pages -d public -b release -f"
   },
   "engines": {
     "node": ">=18.0.0"
