@@ -5,9 +5,9 @@
   "scripts": {
     "clean": "npx gatsby clean",
     "develop": "npx gatsby develop",
-    "build": "npx gatsby build --prefix-paths",
+    "build": "npx gatsby build",
     "serve": "npx gatsby serve",
-    "deploy": "npx gatsby build --prefix-paths && gh-pages -d public -b release -f"
+    "deploy": "npx gatsby build && gh-pages -d public -b release -f"
   },
   "engines": {
     "node": ">=18.0.0"
