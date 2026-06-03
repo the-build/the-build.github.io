@@ -4,10 +4,10 @@
     "siteUrl": "https://github.com/the-build/the-build.io",
     "title": "The Build Blog",
     "titleTemplate": "%s · The Build",
-    "description": "The Build's blog. There are articles, opnions and philosophy.",
-    "author": "The Build <Han>",
+    "description": "The Build's blog. Articles on software engineering, programming, and engineering mindset.",
+    "author": "Han",
     "avatar": "../content/images/about/me.jpg",
-    "bio": "This biography will be used in the footer area of an article and can contain some more details about the author.",
+    "bio": "Software Engineer in Seoul. Writes about Java, C++, Node.js, and engineering practices.",
     "social": {
       "linkedin": "https://www.linkedin.com/in/dongho-han-20738821a",
       "mail": "mailto:hahn079@gmail.com"

@@ -4,7 +4,7 @@ imageAlt: "About [The build]"
 slug: '/about'
 ---
 
-## :D I'm gonna build anything..!
+## Hi, I'm Han — a Software Engineer based in Seoul.
 
 
 

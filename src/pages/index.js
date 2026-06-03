@@ -34,7 +34,7 @@ export default function IndexPage() {
                 height
                 src
               }
-              gatsbyImageData(layout: CONSTRAINED)
+              gatsbyImageData(layout: FIXED, height: 80)
             }
           }
           alt
@@ -52,7 +52,7 @@ export default function IndexPage() {
       <Seo title="The Build's Blog" />
       <Page useSplashScreenAnimation>
         <HeroSection sectionId="hero" />
-        <Section anchor="languages" additionalClasses={[languagesCSS.LanguagesContainer]} heading="Programing languages">
+        <Section anchor="languages" additionalClasses={[languagesCSS.LanguagesContainer]} heading="Programming Languages">
           <div className={languagesCSS.LanguagesContainer}>
           <div className={languagesCSS.Track}>
           {[...languages,...languages].map((language, index) => {

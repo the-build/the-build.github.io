@@ -1,34 +1,37 @@
-# Hello Blog!
-This is the-build's Blog.
+# The Build — Han's Blog
 
+A personal software engineering blog built with Gatsby. Articles on Computer Science, coding problems, and engineering mindset.
+
+---
 
 # Index
-* [Sequence of installation](#environment)
-* [Interest](#interest)
+* [Getting Started](#getting-started)
+* [Topics](#topics)
 * [Environment](#environment)
 
 
-## Sequence of installation
-1. Follow [Environment](#environment) and install every module with written version.
-2. Put on the command!
-    > npm install
+## Getting Started
+1. Install the versions listed under [Environment](#environment).
+2. Run the following commands:
 
-    > gatsby build       ``` or "npx gatsby build"```
+```bash
+npm install
+gatsby develop     # or: npx gatsby develop
+gatsby build       # or: npx gatsby build
+gatsby serve       # preview the production build locally
+```
 
-    > gatsby develop    ``` or "npx gatsby develop"```
 
-
-## Interest
+## Topics
 - Computer Science
-- mindset & insight
-- Good meal (like handmade hamburger)
-- Amaging scenes
+- Coding (LeetCode, algorithms)
+- Mindset & Insight
+- Engineering culture & collaboration
 
 
 ## Environment
-- Node.js : v18.20.4
-- gatsby
-    - Gatsby CLI version: 5.13.3
-    - Gatsby version: 5.13.7
-- react: 18.2.0
+- Node.js: v18.20.4
+- Gatsby CLI: 5.13.3
+- Gatsby: 5.13.7
+- React: 18.2.0
 
