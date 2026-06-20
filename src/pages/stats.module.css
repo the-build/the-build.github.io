@@ -1,0 +1,152 @@
+.Muted {
+    color: var(--subtext-color);
+}
+
+/* Summary cards */
+.Cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2.5rem;
+}
+
+.Card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+    padding: 1.25rem;
+    border-radius: 0.75rem;
+    background: var(--tertiary-color);
+    border: 0.0625rem solid var(--primary-color);
+}
+
+.CardLabel {
+    font-size: 0.8rem;
+    color: var(--subtext-color);
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+}
+
+.CardValue {
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--primary-color);
+    line-height: 1.1;
+}
+
+.CardSub {
+    font-size: 0.8rem;
+    color: var(--subtext-color);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.SubHeading {
+    margin: 1.5rem 0 1rem;
+    color: var(--primary-color);
+}
+
+/* Bar chart */
+.Chart {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    margin-bottom: 2.5rem;
+}
+
+.BarRow {
+    display: grid;
+    grid-template-columns: minmax(120px, 30%) 1fr auto;
+    align-items: center;
+    gap: 0.75rem;
+}
+
+.BarLabel {
+    font-size: 0.85rem;
+    color: var(--text-color);
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.BarLabel a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.BarLabel a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.BarTrack {
+    background: var(--tertiary-color);
+    border-radius: 0.5rem;
+    overflow: hidden;
+    height: 1.1rem;
+}
+
+.BarFill {
+    height: 100%;
+    background: var(--primary-color);
+    border-radius: 0.5rem;
+    transition: width 0.4s ease;
+}
+
+.BarValue {
+    font-size: 0.85rem;
+    font-variant-numeric: tabular-nums;
+    color: var(--text-color);
+    min-width: 3ch;
+    text-align: right;
+}
+
+/* Table */
+.TableWrapper {
+    overflow-x: auto;
+}
+
+.Table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+}
+
+.Table th,
+.Table td {
+    padding: 0.6rem 0.75rem;
+    text-align: left;
+    border-bottom: 0.0625rem solid var(--tertiary-color);
+    color: var(--text-color);
+}
+
+.Table th {
+    color: var(--subtext-color);
+    font-weight: 600;
+    white-space: nowrap;
+}
+
+.Table tbody tr:hover {
+    background: var(--tertiary-color);
+}
+
+.Table a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.Table a:hover {
+    text-decoration: underline;
+}
+
+.Right {
+    text-align: right;
+    font-variant-numeric: tabular-nums;
+}
+
+@media (max-width: 600px) {
+    .BarRow {
+        grid-template-columns: minmax(90px, 40%) 1fr auto;
+    }
+}
